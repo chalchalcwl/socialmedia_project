@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Montserrat:ital,wght@0,300;1,600;1,800&display=swap');
+
+$primary :#1F17A5;
+$secondary:#7E76F9;
+$dark:#42495B;
+$success:#4ABB4A;
+$danger:#FC6681;
+$warning:#FFD037;
+
+$font-family-sans-serif:'Kanit', sans-serif,  'Montserrat', sans-serif;
+
+$btn-border-radius:30px;
+$btn-border-radius-lg:50px;
+$btn-border-radius-sm:30px;
+
+$card-border-radius:40px;
+
+$btn-padding-x: 2rem;
+$btn-padding-x-lg:5rem;
+
+
+$nav-link-font-size:20px;
+
+$carousel-indicator-width: 10px;
+$carousel-indicator-height: 10px;
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+.navbar-brand img{
+  height: 50px;
+}
+.navbar-brand span{
+  vertical-align: bottom;
+}
+.scroll-to-service{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  color: $primary;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.section-2-bg{
+  background-image: url("../swd-project/_data/bg-2.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#service{
+  background-image: url("../image/bg-3.svg");
+  background-position: center;
+  background-size: 100% auto;
+}
+.first-home{
+  min-height: 75vh;
+}
+#price> .row{
+  //background-color: #cbc9e6;
+}
+.carousel-indicators >button{
+  border-radius: 50%;
+}
+card{
+  border-color: white;
+}
